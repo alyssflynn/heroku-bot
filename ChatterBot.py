@@ -28,7 +28,7 @@ counter = 20
 while(True):
 
     # Call the TweetQuotes function and specify the tweet number
-    TweetOut(i)
+    TweetOut(counter)
 
     # Once tweeted, wait 60 seconds before doing anything else
     time.sleep(10)
